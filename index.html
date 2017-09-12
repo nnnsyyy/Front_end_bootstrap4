@@ -1,36 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
 		<!-- <link rel="icon" type="image/png" href=""/> -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 		<title>Index page template</title>
-    <!-- <link rel="stylesheet" href="css/style.css"/> -->
+    
+    <!-- Bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    
+    <!--Include Your Style Sheets next -->
+    <link rel="stylesheet" href="css/style.css"/>
 	</head>
+  
   <body>
     <header>
-      <p>Here we can put page name.</p>
-      <nav>
-      <a href="">one</a>
-      <a href="">two</a>
-      <a href="">three</a>
-      <a href="">four</a>
+      
+      <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">WebSiteName</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav" role="navigation">
+            <li role="presentation" class="active"><a href="#">Home</a></li>
+            <li role="presentation"><a href="#">Profile</a></li>
+            <li role="presentation"><a href="#">Message</a></li>
+            <li role="presentation" class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+              Dropdown<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Option one</a></li>
+                <li><a href="#">Option two</a></li>
+                <li><a href="#">Option three</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          </ul>
+        </div>
+           
+      </div>
       </nav>
+      
     </header>
     <main>
       <h1>Hello, world!</h1>
       <p>Here is main section of page.</p>
+      
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-3">
+            <div class="visible-xs">Extreme small</div>
+            <div class="visible-sm">Small</div>
+            <div class="visible-md">Medium</div>
+            <div class="visible-lg">Large</div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="visible-xs">Extreme small</div>
+            <div class="visible-sm">Small</div>
+            <div class="visible-md">Medium</div>
+            <div class="visible-lg">Large</div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="visible-xs">Extreme small</div>
+            <div class="visible-sm">Small</div>
+            <div class="visible-md">Medium</div>
+            <div class="visible-lg">Large</div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="visible-xs">Extreme small</div>
+            <div class="visible-sm">Small</div>
+            <div class="visible-md">Medium</div>
+            <div class="visible-lg">Large</div>
+          </div>
+        </div>
+      </div>
     
     </main>
     <footer>
-    <p>An interested footer is needed. @copy Mr/Ms X</p>
+    <p>An interested footer is needed. @copy Shiyue</p>
     </footer>
     
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>  
+    <!-- If you don't have the files saved locally, make sure to link it in CodePen, just like you linked the CSS. -->
     <!-- <script src="js/func.js"></script> -->
   </body>
 </html>
