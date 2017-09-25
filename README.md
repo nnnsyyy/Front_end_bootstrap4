@@ -11,5 +11,7 @@ For coursera study: Front-End JavaScript Frameworks: Angular
 - NPM dev
 
 -= Details =-
+- For Windows: Be careful when editing npm script. It just accepts double quote.
+e.g. "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\""
 - JSHint: Checking JS code
 - Uglification: min + mangle
