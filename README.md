@@ -5,3 +5,11 @@ For coursera study: Front-End JavaScript Frameworks: Angular
 - Use card and media to specific components
 - Form and table
 - Badge, Font-Awesome(icons), button(block-size)
+- Hiden card
+- Carousel & JS control
+- CSS precompiler: Less & Sass
+- NPM dev
+
+-= Details =-
+- JSHint: Checking JS code
+- Uglification: min + mangle
