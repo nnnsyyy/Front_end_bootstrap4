@@ -10,9 +10,9 @@ For coursera study: Front-End JavaScript Frameworks: Angular
 * CSS precompiler: Less & Sass
 * NPM dev
 * Task runner(JS): Grunt (configuration over code)
-  - grunt-cli for local and grunt to save-dev
-  - grunt-sass / time-grunt / jit-grunt
-  - grunt-browser-sync / grunt-contrib-watch
+   - grunt-cli for local and grunt to save-dev
+   - grunt-sass / time-grunt / jit-grunt
+   - grunt-browser-sync / grunt-contrib-watch
 
 -= Details =-
 * For Windows: Be careful when editing npm script. It just accepts double quote.
