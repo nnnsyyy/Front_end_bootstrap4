@@ -9,6 +9,7 @@ For coursera study: Front-End JavaScript Frameworks: Angular
 - Carousel & JS control
 - CSS precompiler: Less & Sass
 - NPM dev
+- Task runner(JS): Grunt (configuration over code)
 
 -= Details =-
 - For Windows: Be careful when editing npm script. It just accepts double quote.
