@@ -13,5 +13,13 @@ $(document).ready(function(){
         $("#carousel-button").children("span").addClass('fa-pause');
     }
   });
+  
+  $('#loginSign').click(function(){
+      $('#loginModal').modal('toggle'); 
+  } );
+  
+  $('#reserveButton').click(function(){
+      $('#reserveModal').modal('toggle'); 
+  } );
 
 });

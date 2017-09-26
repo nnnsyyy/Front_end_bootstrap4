@@ -12,6 +12,27 @@ $carousel-item-height: 300px;
 	padding: $pad-up-dn $pad-left-right;
 }
 
+//modal style
+.modal{
+    .modal-header{
+        background-color: $background-dark;
+        color: floralwhite;
+    }
+    
+    .btn-outline-dark{
+        background-color: floralwhite;
+    }
+    
+    .modal-body{
+        background-color: $background-pale;
+        border: 0px;
+    }
+    
+    .modal-footer{
+        background-color: $background-light;
+        border: 0px;
+    }
+}
 
 //css content
 .row-header{
@@ -69,6 +90,7 @@ body{
         }
     }
 }
+
 #carousel-button {
     right:0px;
     position: absolute;
